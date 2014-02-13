@@ -1,3 +1,6 @@
+/*sections background etc.*/
+
+
 #aesthetic 
 {
 	background:url(?holder.js/2048x1600/vine) no-repeat;
@@ -6,7 +9,22 @@
 }
 
 #phoneslider{
-	background:url(?holder.js/2048x1600/lava) no-repeat;
+	/*background:url(?holder.js/2048x1600/vine) no-repeat;*/
+	background-color: #34495e;
 	/*height: 400px;*/
 	padding: 40px 0 55px;
 }
+
+#phoneslider h3{
+	color: #ffffff;
+}
+
+#phoneslider p{
+	color: #ffffff;
+}
+
+
+/*fonts and other textual thingies*/
+/*.top-info .smaller h3 span{
+	font-size: 50px;
+}*/
