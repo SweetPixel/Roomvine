@@ -10,3 +10,7 @@
 	/*height: 400px;*/
 	padding: 40px 0 55px;
 }
+
+.six columns .button btn large radius{
+    line-height: 10em;
+}
