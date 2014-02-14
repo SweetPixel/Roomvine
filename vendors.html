@@ -43,6 +43,7 @@
 	    <script type="text/javascript" src="js/main.js"></script>
 	    <script type="text/javascript" src="app/bower_components/holderjs/holder.js"></script>
 	    <link rel="stylesheet" type="text/css" href="css/roomvine.css"/>
+	    <!-- <script type="text/javascript" src="js/headroom.js"/> -->
 	    <style>
 	    .flex-control-thumbs li{
 	    	width: initial;
@@ -94,36 +95,59 @@
 
 		<!-- Testimonial/quote section -->
 		<section id="phoneslider">
-			<div class="row text-center">
-				<div class="twelve columns">
+			<div class="row">
+				<div class="twelve columns text-center">
 					<div class="row">
 						<h3>Roomvine is a disruptive new way for businesses to interact with their users</h3>
 					</div>
-					<div class="row">
-						<div class="five columns">
-							<div class="flexslider">
-								<ul class="slides">
-									<li>
-										<img src="images/beinformed_03.png"/>
-									</li>
+				</div>
+			</div>
+			<div class="row">
+				<div class="twelve columns text-center">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="three columns">
+									<img src="images/beinformed_03.png"/>
+								</div>
+								<div id="box" class="nine columns">
+									<p><b>Be Informed</b> <br />Listen in to what your customers are talking about.</p>
+								</div>
+							</li>
 
-									<li>
-										<img src="images/beselfaware_03.png"/>
-									</li>
+							<li>
+								<div class="three columns">
+									<img src="images/beselfaware_03.png"/>
+								</div>
+								<div id="box" class="nine columns">
+									<p><b>Be Self-aware</b> <br />See how users are rating your venue right now and ask them why.</p>
+								</div>
+							</li>
 
-									<li>
-										<img src="images/beapproachable_03.png"/>
-									</li>
+							<li>
+								
+								<div class="three columns">
+									<img src="images/beapproachable_03.png"/>
+								</div>
+								<div id="box" class="nine columns">
+									<p><b>Be Approachable</b> <br />Engage with your customers at a one-to-one level.</p>
+								</div>
+							</li>
 
-									<li>
-										<img src="images/beheard_03.png"/>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="seven columns">
+							<li>
+								<div class="three columns">
+									<img src="images/beheard_03.png"/>
+								</div>
+								<div id="box" class="nine columns">
+									<p><b>Be Heard</b> <br />Broadcast to your current customers and set important messages as the room-status.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+<!-- 						<div class="seven columns">
 							<p><b>Be Informed</b><br/>Listen in to what your customers are talking about.</p>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -133,7 +157,14 @@
 
 	<!-- Famour People Section -->
 	<section id="fmpeople">
-
+		<div class="row">
+			<div class="twelve columns">
+				<div class="fmslider">
+					<ul class="slides">
+					</ul>
+				</div>
+			</div>
+		</div>
 	</section>
 	<!-- Famour People Section -->
 
@@ -202,7 +233,14 @@
 	$('#indexpage').click(function (event) {
             // window.location.href = "index.php";
             // event.preventDefault();
-        })
-	</script>
+        });
+// 	$(document).ready(function(){
+// 		var myElement = document.querySelector("header");
+// // construct an instance of Headroom, passing the element
+// var headroom  = new Headroom(myElement);
+// // initialise
+// headroom.init(); 
+// });
+</script>
 </body>
 </html>
