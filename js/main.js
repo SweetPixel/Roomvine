@@ -52,6 +52,10 @@ $('.flexslider').flexslider({
     controlNav: "thumbnails"
 });
 
+$('.fmslider').flexslider({
+    animation: "fade"
+});
+
 $('.top-nav').onePageNav();
 
 $(window).scroll( function() {
