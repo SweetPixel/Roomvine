@@ -13,7 +13,7 @@ $(document).ready(function() {
         slideshowSpeed: 8000,
         start:function(){
             $('#mainSldHeading').text('Roomvine');
-            $('#mainSldPara').text('Talk to people in the same place as you. Without the awkwardness');
+            $('#mainSldPara').html('Talk to people in the same place as you.<br /> Without the awkwardness');
         // console.log('calling start');
     },
     before:function(slider){
@@ -24,15 +24,15 @@ $(document).ready(function() {
         {
             case 0:
             $('#mainSldHeading').text('Linked for a moment').css('font-size','30px');
-            $('#mainSldPara').text('Whether you are in a bar, restaurant, classroom or concert, you are sharing  the experience with others in the same room as you. Roomvine lets you interact with them anonymously.');
+            $('#mainSldPara').html('Whether you are in a bar, restaurant, classroom or concert, you are sharing  the experience with others in the same room as you.<br /> Roomvine lets you interact with them anonymously.');
             break;
             case 1:
             $('#mainSldHeading').text('A safe hello').css('font-size','30px');
-            $('#mainSldPara').text('Have random discussions with the people around without revealing your true identity');
+            $('#mainSldPara').text('Have random discussions with the people around without revealing your true identity.');
             break;
             case 2:
             $('#mainSldHeading').text('Hear it through the Roomvine').css('font-size','30px');
-            $('#mainSldPara').text('Check out the scene rating of a place on that day before heading there');
+            $('#mainSldPara').text('Check out the scene rating of a place on that day before heading there.');
             break;
             case 3:
             $('#mainSldHeading').text('Roomvine').css('font-size','65px');
