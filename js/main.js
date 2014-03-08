@@ -48,12 +48,11 @@ $(document).ready(function() {
 });
 
 $('.flexslider').flexslider({
-    animation: "slide",
-    controlNav: "thumbnails"
+    animation: "slide"
 });
 
 $('.fmslider').flexslider({
-    animation: "fade"
+    animation: "slide"
 });
 
 $('.top-nav').onePageNav();
@@ -76,4 +75,3 @@ $(window).scroll( function() {
 
 
 });
-
