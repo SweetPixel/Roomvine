@@ -52,7 +52,7 @@ $('.flexslider').flexslider({
 });
 
 $('.fmslider').flexslider({
-    animation: "fade"
+    animation: "slide"
 });
 
 $('.top-nav').onePageNav();
