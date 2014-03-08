@@ -1,13 +1,3 @@
-.img-circular{
- width: 200px;
- height: 200px;
- background-image: url('http://images/Don James 200x200.jpg');
- background-size: cover;
- display: block;
- border-radius: 100px;
- -webkit-border-radius: 100px;
- -moz-border-radius: 100px;
-}
 
 .img-circle {
   border-radius: 50%;
