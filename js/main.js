@@ -48,8 +48,7 @@ $(document).ready(function() {
 });
 
 $('.flexslider').flexslider({
-    animation: "slide",
-    controlNav: "thumbnails"
+    animation: "slide"
 });
 
 $('.fmslider').flexslider({
@@ -76,4 +75,3 @@ $(window).scroll( function() {
 
 
 });
-
