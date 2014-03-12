@@ -48,11 +48,21 @@ $(document).ready(function() {
 });
 
 $('.flexslider').flexslider({
-    animation: "slide"
+    animation: "slide",
+    controlNav: false,
+    useCSS: true
 });
 
+$('.phoneslider').flexslider({
+    controlNav: true,
+    animation: "slide",
+    useCSS: true
+})
+
 $('.fmslider').flexslider({
-    animation: "slide"
+    animation: "slide",
+    controlNav: false,
+    useCSS: true
 });
 
 $('.top-nav').onePageNav();
