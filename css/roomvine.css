@@ -5,7 +5,11 @@
 {
 	background:url(?holder.js/2048x1600/vine) no-repeat;
 	/*height: 400px;*/
-	padding: 40px 0 55px;
+/*	padding: 40px 0 55px;*/
+}
+
+#contact{
+	background-color: #1ABC9C;
 }
 
 #phoneslider{
@@ -17,7 +21,11 @@
 
 #fmpeople{
 	background-color: #FFFFFF;
-	padding: 40px 0 55px;
+	padding: 40px 0 350px;
+}
+
+#fmpeople p{
+	color: #000000;
 }
 
 #phoneslider h3{
@@ -29,7 +37,14 @@
 	color: #ffffff;
 }
 
+#contact:
+{
+	color: #FFFFFF;
+}
 
+#contact h3,h4,h5,p{
+	color: #FFFFFF;
+}
 
 
 /*fonts and other textual thingies*/

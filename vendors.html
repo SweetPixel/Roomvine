@@ -89,25 +89,26 @@
 		<!-- Header section -->
 
 		<!-- Slider section -->
+<!-- <div class="space50"></div> -->
+
 		<section id="aesthetic">
-			<div class="row">
-				<div class="twelve columns text-center">
-					<h3 style="padding-top: 50px;">Get to know your customers as you would know a friend</h3>
+			<div class="">
+				<div class="text-center">
+<!-- 					<h3 style="padding-top: 50px;">Get to know your customers as you would know a friend</h3> -->
                     <!--<img src="/images/roomvine.png" width="500" height="500">-->
           <div class="flexslider">
 						<ul class="slides">
 							<li>
-								<div class="twelve columns">
 									<img id="sldimg" src="images/Crowd_v3 Shop v2 1170x779.png"/>
-								</div>
+									<p class="flex-caption">Captions and cupcakes. Winning combination.</p>
 							</li>
                             <li>
-                                <div class="twelve columns">
+                                <div class="">
 									<img id="sldimg"  src="images/Shop v2 1170x779.png"/>
 								</div>
                             </li>
                             <li>
-                                <div class="twelve columns">
+                                <div class="">
 									<img id="sldimg" src="images/Sticker on Door 1170x779.png"/>
 								</div>
                             </li>
@@ -265,79 +266,37 @@
 			</div>
 		</div>
 	</section>
-	<!-- Famour People Section -->
-
+	<!-- Famous People Section -->
 	<!-- Contact section -->
 	<section id="contact">
 		<div class="row">
 			<div class="twelve columns">
-				<h3><i class="icon-envelope"></i>Get on Board</h3>
+				<h3>HOW IT WORKS</h3>
 				<div class="text-center"><h5><strong>Roomvine is currently free for all selected Beta users. You just need to follow 3 simple steps</strong></h5></div>
-				<p style="margin-left: 28px;">
-					<br /><b>Step 1:</b> Claim your venue on Roomvine by filling out this form. Verification can take from 1-7 days.
-				</p>
-
-
-				<!-- Contact form -->
-				<div class="six columns">
-					<form id="contactForm" action="sendData.php" method="post" >
-						<div class="inner">
-							<i class="icon-useralt"></i>
-							<input type="text" name="claimername" id="claimername" required="required" placeholder="Name" />
+				<div class="row">
+						<div class="three columns">
+							<img src="images/1c.png" alt=""/>
 						</div>
-
-						<div class="inner">
-							<i class="icon-envelope"></i>
-							<input type="email" name="claimerEmail" id="claimerEmail" required="required" placeholder="Email Address" />
+						<div class="nine columns">
+							<p style="margin-left: 28px;">
+								<br /><b>Step 1:</b> Claim your venue on Roomvine by filling out the form below. Verification can take from 1-7 days.
+							</p>
 						</div>
-
-						<div class="inner">
-							<i class="icon-pencil"></i>
-							<input type="text" name="venue" id="venue" required="required" placeholder="Venue" />
-						</div>
-
-						<div class="inner">
-							<i class="icon-pencil"></i>
-							<textarea name="venueaddress" id="venueaddress" required="required" placeholder="Venue Address" rows="5"></textarea>
-						</div>
-
-						<div class="inner">
-							<i class="icon-pencil"></i>
-							<input type="text" name="industry" id="industry" placeholder="Industry (Optional)" />
-						</div>
-
-						<div class="inner">
-							<i class="icon-pencil"></i>
-							<input type="text" name="contactNumber" id="contactNumber" placeholder="Contact number (Optional)"/>
-						</div>
-
-						<div class="inner">
-							<i class="icon-pencil"></i>
-							<textarea name="heard" id="heard" placeholder="How did you hear about us (Optional)" rows="5"></textarea>
-						</div>
-
-						<div class="inner">
-							<i class="icon-pencil"></i>
-							<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-						</div>
-
-						<div style="margin-left: 13px;">
-							<input type="submit" id="sendMessage" name="sendMessage" value="Submit message" />
-						</div>
-					</form>
-					<div id="sendingMessage" class="statusMessage"><p>Sending your message. Please wait...</p></div>
-					<div id="successMessage" class="successmessage"><p><span class="success-ico"><i class="icon-ok-circle"></i></span> Thanks for sending your message! We will get back to you shortly.</p></div>
-					<div id="failureMessage" class="errormessage"><p><span class="error-ico"><i class="icon-remove-circle"></i></span> There was a problem sending your message. Please try again.</p></div>
-					<div id="incompleteMessage" class="statusMessage"><p>Please complete all the fields in the form before sending.</p></div>
-
-
 				</div>
-			</div>
+				<div class="row">
+					<div class="nine columns">
+						<p>
+							<br />
+							<b>Step 2:</b> Get your customers to interact on Roomvine by placing this sticker or sign at the entrance. You can download the sign from <a href="http://www.roomvine.com/signs">here</a>
+						</p>
+					</div>
+					<div class="three columns">
+							<img src="images/2c.png" alt="">
+					</div>
+				</div>
 
 			<div class="twelve columns">
-				<p>
-					<br />
-					<b>Step 2:</b> Get your customers to interact on Roomvine by placing this sticker or sign at the entrance. You can download the sign from <a href="http://www.roomvine.com/signs">here</a>
+
 					<br />
 					<b>Step 3:</b> Download the app and sign in the with the email address which you have submitted in the venue claim form.
 				</p>
@@ -349,6 +308,60 @@
 
 	</section>
 	<!-- Contact section -->
+	<!-- Contact form -->
+	<div class="six columns">
+		<form id="contactForm" action="sendData.php" method="post" >
+			<div class="inner">
+				<i class="icon-useralt"></i>
+				<input type="text" name="claimername" id="claimername" required="required" placeholder="Name" />
+			</div>
+
+			<div class="inner">
+				<i class="icon-envelope"></i>
+				<input type="email" name="claimerEmail" id="claimerEmail" required="required" placeholder="Email Address" />
+			</div>
+
+			<div class="inner">
+				<i class="icon-pencil"></i>
+				<input type="text" name="venue" id="venue" required="required" placeholder="Venue" />
+			</div>
+
+			<div class="inner">
+				<i class="icon-pencil"></i>
+				<textarea name="venueaddress" id="venueaddress" required="required" placeholder="Venue Address" rows="5"></textarea>
+			</div>
+
+			<div class="inner">
+				<i class="icon-pencil"></i>
+				<input type="text" name="industry" id="industry" placeholder="Industry (Optional)" />
+			</div>
+
+			<div class="inner">
+				<i class="icon-pencil"></i>
+				<input type="text" name="contactNumber" id="contactNumber" placeholder="Contact number (Optional)"/>
+			</div>
+
+			<div class="inner">
+				<i class="icon-pencil"></i>
+				<textarea name="heard" id="heard" placeholder="How did you hear about us (Optional)" rows="5"></textarea>
+			</div>
+
+			<div class="inner">
+				<i class="icon-pencil"></i>
+				<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+			</div>
+
+			<div style="margin-left: 13px;">
+				<input type="submit" id="sendMessage" name="sendMessage" value="Submit message" />
+			</div>
+		</form>
+		<div id="sendingMessage" class="statusMessage"><p>Sending your message. Please wait...</p></div>
+		<div id="successMessage" class="successmessage"><p><span class="success-ico"><i class="icon-ok-circle"></i></span> Thanks for sending your message! We will get back to you shortly.</p></div>
+		<div id="failureMessage" class="errormessage"><p><span class="error-ico"><i class="icon-remove-circle"></i></span> There was a problem sending your message. Please try again.</p></div>
+		<div id="incompleteMessage" class="statusMessage"><p>Please complete all the fields in the form before sending.</p></div>
+
+
+	</div>
 
 	<!-- Footer section -->
 	<footer class="footer">
@@ -360,10 +373,10 @@
 	</footer>
 	<!-- Footer section -->
 	<script>
-	$('#indexpage').click(function (event) {
+	// $('#indexpage').click(function (event) {
             // window.location.href = "index.php";
             // event.preventDefault();
-        });
+        // });
 // 	$(document).ready(function(){
 // 		var myElement = document.querySelector("header");
 // // construct an instance of Headroom, passing the element
