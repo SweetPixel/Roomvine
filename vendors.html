@@ -84,7 +84,7 @@
 						<div class="nine columns">
 							<ul class="top-nav">
 								<li><a href="#contact">Join</a></li>
-								<li><a href="index.html">App Page</a></li>
+								<li><a id="indexpage" href="index.html">App Page</a></li>
 							</ul>
 						</div>
 					</div>
@@ -99,11 +99,13 @@
 		<section id="aesthetic">
 			<div class="">
 				<div id="featured">
-				  <img src="images/Crowd_v3 Shop v2 1170x779.png"/>
-				  <img src="images/Shop v2 1170x779.png"/>
-				  <img src="images/Sticker on Door 1170x779.png"/>
+				  <img data-caption="#captionOne" src="images/Crowd_v3 Shop v2 1170x779.png"/>
+				  <img data-caption="#captionOne" src="images/Shop v2 1170x779.png"/>
+				  <img data-caption="#captionOne" src="images/Sticker on Door 1170x779.png"/>
 				</div>
 			</div>
+			<span class="orbit-caption" id="captionOne">Get to know your customers as you would know a friend.</span>
+
 <!--
 			<div class="">
 				<div class="text-center">
@@ -388,14 +390,14 @@
 	</footer>
 	<!-- Footer section -->
 	<script>
-	// $('#indexpage').click(function (event) {
-            // window.location.href = "index.php";
-            // event.preventDefault();
-        // });
+	$('#indexpage').click(function (event) {
+            window.location.href = "index.html";
+            event.preventDefault();
+        });
 $(window).load(function(){
 	 $("#featured").orbit({
 		animation: 'fade',
-		animationSpeed: 400
+		animationSpeed: 800
 		}
 	);
 });

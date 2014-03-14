@@ -96,3 +96,45 @@
 .orbit{
 	margin-bottom: 0px;
 }
+
+.orbit-wrapper .orbit-caption{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+    bottom: 400px;
+/*    color: #FFFFFF;*/
+    	font-size: 32px;
+			font-family: 'Open Sans',sans-serif;;
+/*    padding: 7px 0;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    text-align: center;*/
+/*    width: 100%;*/
+/*    z-index: 30;*/
+}
+
+/* Very large screens */
+@media only screen and (min-width: 1441px) {
+	.orbit-wrapper .orbit-caption{
+		bottom: 400px;
+		font-size: 32px;
+	}
+}
+
+/* Medium screens */
+@media only screen and (max-width: 1279px) and (min-width: 768px) {
+ 	.orbit-wrapper .orbit-caption{
+			bottom: 250px;
+			font-size: 22px;
+		}
+}
+
+/* Small screens */
+@media only screen and (max-width: 767px) {
+	.orbit-wrapper .orbit-caption{
+		bottom: 30px;
+	font-size: 17px;
+	}
+ }
+
+.top-wrap{
+	position: relative;
+}
