@@ -21,7 +21,7 @@
 
 #fmpeople{
 	background-color: #FFFFFF;
-	padding: 40px 0 350px;
+	padding: 40px 0 250px;
 }
 
 #fmpeople p{
@@ -44,6 +44,22 @@
 
 #howitworks h3,h4,h5,p{
 	color: #FFFFFF;
+}
+
+#howitworks a{
+	color: #ecf0f1;
+	text-decoration: underline;
+}
+
+#contact{
+	padding: 0px;
+}
+
+.infoText{
+	background-color: #FFFFFF;
+	display: block;
+	font-size: 14px;
+	color: #1ABC9C;
 }
 
 
@@ -85,7 +101,7 @@
 
 #featured img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .logo{
@@ -99,7 +115,7 @@
 
 .orbit-wrapper .orbit-caption{
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
-    bottom: 400px;
+    bottom: 600px;
 /*    color: #FFFFFF;*/
     	font-size: 32px;
 			font-family: 'Open Sans',sans-serif;;
@@ -114,7 +130,7 @@
 /* Very large screens */
 @media only screen and (min-width: 1441px) {
 	.orbit-wrapper .orbit-caption{
-		bottom: 400px;
+		bottom: 600px;
 		font-size: 32px;
 	}
 }
@@ -122,7 +138,7 @@
 /* Medium screens */
 @media only screen and (max-width: 1279px) and (min-width: 768px) {
  	.orbit-wrapper .orbit-caption{
-			bottom: 250px;
+			bottom: 500px;
 			font-size: 22px;
 		}
 }
@@ -130,7 +146,7 @@
 /* Small screens */
 @media only screen and (max-width: 767px) {
 	.orbit-wrapper .orbit-caption{
-		bottom: 30px;
+		bottom: 100px;
 	font-size: 17px;
 	}
  }
