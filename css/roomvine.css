@@ -51,7 +51,8 @@
 	text-decoration: underline;
 }
 
-#contact{
+#signup{
+	text-align: center;
 	padding: 0px;
 }
 
@@ -62,12 +63,6 @@
 	color: #1ABC9C;
 }
 
-
-/*fonts and other textual thingies*/
-/*.top-info .smaller h3 span{
-	font-size: 50px;
-}*/
-
 #box{
 
 	width: 600px;
@@ -75,6 +70,18 @@
   	line-height: 400px;
   	text-align: center;
 }
+#box p{
+	display: inline-block;
+  	vertical-align: middle;
+  	line-height: normal;
+}
+
+/*fonts and other textual thingies
+/*.top-info .smaller h3 span{
+	font-size: 50px;
+}
+
+
 
 #box p{
 	display: inline-block;
