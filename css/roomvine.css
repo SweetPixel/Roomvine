@@ -153,8 +153,8 @@
 /* Small screens */
 @media only screen and (max-width: 767px) {
 	.orbit-wrapper .orbit-caption{
-		bottom: 100px;
-	font-size: 17px;
+		bottom: 170px;
+		font-size: 17px;
 	}
  }
 
