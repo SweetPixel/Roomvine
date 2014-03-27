@@ -158,6 +158,15 @@
 	}
  }
 
+/* HTC ONE screens*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .orbit-wrapper .orbit-caption {
+        bottom: 100px;
+        font-size: 17px;
+    }
+}
+
+
 .top-wrap{
 	position: relative;
 }
