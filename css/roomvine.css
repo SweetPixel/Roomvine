@@ -122,7 +122,7 @@
 
 .orbit-wrapper .orbit-caption{
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
-    bottom: 600px;
+    bottom: 800px;
 /*    color: #FFFFFF;*/
     	font-size: 32px;
 			font-family: 'Open Sans',sans-serif;;
@@ -137,7 +137,7 @@
 /* Very large screens */
 @media only screen and (min-width: 1441px) {
 	.orbit-wrapper .orbit-caption{
-		bottom: 600px;
+		bottom: 800px;
 		font-size: 32px;
 	}
 }
@@ -145,7 +145,7 @@
 /* Medium screens */
 @media only screen and (max-width: 1279px) and (min-width: 768px) {
  	.orbit-wrapper .orbit-caption{
-			bottom: 500px;
+			bottom: 600px;
 			font-size: 22px;
 		}
 }
@@ -153,7 +153,7 @@
 /* Small screens */
 @media only screen and (max-width: 767px) {
 	.orbit-wrapper .orbit-caption{
-		bottom: 170px;
+		bottom: 200px;
 		font-size: 17px;
 	}
  }
