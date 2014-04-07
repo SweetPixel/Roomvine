@@ -4,4 +4,4 @@ temp/
 *.log
 dploy.yaml
 build/
-.rev
+dist/
